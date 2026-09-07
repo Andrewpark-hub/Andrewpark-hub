@@ -1,4 +1,4 @@
-# Hi there, I'm Andrew Park! 👋
+# Hi there, I'm Jungun Park! 👋
 
 ### Fintech Lab Researcher | Blockchain Developer 
 
