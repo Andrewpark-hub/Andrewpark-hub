@@ -25,7 +25,7 @@
 
 ### 📈 GitHub Stats
 <p>
-  <img src="https://github-readme-stats.vercel.app/api?username=Andrewpark-hub&show_icons=true&theme=radium" alt="Andrewpark-hub's GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Andrewpark-hub&show_icons=true&theme=radium" alt="Andrewpark-hub's GitHub stats"/>
 </p>
 
 ### 📫 Let's Connect!
