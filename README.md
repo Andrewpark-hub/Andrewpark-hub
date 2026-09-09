@@ -2,7 +2,8 @@
 
 ### Fintech Lab Researcher | Blockchain Developer 
 
-현재 순천향대학교 컴퓨터소프트웨어공학과에 재학 중이며, 핀테크 랩(Fintech Lab) 연구원으로 활동하고 있습니다. /br
+현재 순천향대학교 컴퓨터소프트웨어공학과에 재학 중이며, 핀테크 랩(Fintech Lab) 연구원으로 활동하고 있습니다.
+
 **블록체인 아키텍처, EVM 매커니즘, 그리고 스마트 컨트랙트 보안**에 깊은 열정을 가지고 있으며, 이론적 개념을 실제 금융(Digital Finance)과 Web3, RWA(Real-World Asset) 토큰화 기술로 구현해 내는 것에 집중하고 있습니다.
 
 ---
