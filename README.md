@@ -45,6 +45,18 @@
 
 ---
 
+
+### 🔗 Blockchain Projects
+| Project | Description | Tech Stack |
+| :--- | :--- | :--- |
+| [**Smart Contract Audit Lab**](https://github.com/Andrewpark-hub/smart-contract-audit-lab) | 스마트 컨트랙트 주요 취약점(Reentrancy, Oracle Manipulation 등) 분석 및 공격 PoC 구현, Slither를 활용한 정적 분석 파이프라인 구축 | `Solidity`, `Foundry`, `Slither` |
+| [**Multichain Wallet Lab**](https://github.com/Andrewpark-hub/multichain-wallet-lab) | BIP-39/44 표준 기반 키 파생, EIP-1559/712 호환 트랜잭션 서명 및 allowance 모니터링 기능을 지원하는 멀티체인(EVM, Sui, Solana) HD 지갑 코어 구현 | `Node.js`, `ethers.js` |
+| [**Indy DID Credential Demo**](https://github.com/Andrewpark-hub/indy-did-credential-demo) | Hyperledger Indy 인프라 구축 및 영지식 증명(ZKP)을 활용한 VC(검증 가능한 자격증명) 발급 및 VP 검증 시나리오 구현 | `Python`, `Hyperledger Indy` |
+
+---
+
+
+
 ### 📫 Let's Connect!
 <a href="https://www.linkedin.com/in/정언-박-975ab1323/">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
