@@ -4,8 +4,8 @@
 
 현재 순천향대학교 컴퓨터소프트웨어공학과에 재학 중이며, 핀테크 랩(Fintech Lab) 연구원으로 활동하고 있습니다.
 
-**스마트 컨트랙트 보안, EVM 메커니즘, DApp 아키텍처**에 깊은 관심을 가지고 연구하고 있습니다. 블록체인 생태계의 다양한 취약점을 분석하고, DID/VC 기반 신원 증명 시스템이나 멀티체인 지갑과 같은 실제 동작하는 서비스와 프로토콜을 직접 구현하며 기술적 깊이를 더해가고 있습니다.
 
+블록체인 아키텍처, EVM 매커니즘, 그리고 스마트 컨트랙트에 깊은 열정을 가지고 있으며, 이론적 개념을 실제 금융(Digital Finance)과 Web3, RWA(Real-World Asset) 토큰화 기술로 구현해 내는 것에 집중하고 있습니다.
 ---
 
 ### 🛠️ Core Interests & Expertise
@@ -30,6 +30,7 @@
 **Backend & Blockchain**
 <br/>
 <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+<img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" />
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
 <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
 <img src="https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white" />
@@ -42,6 +43,7 @@
 
 **DevOps & Tools**
 <br/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
 <img src="https://img.shields.io/badge/VS%20Code-0078D4?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
 <img src="https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white" />
