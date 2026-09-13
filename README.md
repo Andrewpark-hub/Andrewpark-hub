@@ -61,3 +61,28 @@
 <a href="https://www.linkedin.com/in/정언-박-975ab1323/">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
+
+---
+
+<details>
+<summary><b>🌐 English</b> — click to expand</summary>
+
+<br/>
+
+I'm currently studying Computer Software Engineering at Soonchunhyang University, where I also work as a researcher at the Fintech Lab.
+
+I'm deeply interested in **blockchain architecture, EVM mechanics, and smart contracts**, and I focus on turning theoretical concepts into working technology for digital finance, Web3, and RWA (Real-World Asset) tokenization.
+
+### 🛠️ Core Interests & Expertise
+- **Blockchain & Web3:** EVM Mechanics, Smart Contract Security, RWA Tokenization
+- **Backend & Fintech:** Java, Spring Framework, Python, Application Development
+- **Current Research:** Distributed ledger trustworthiness and building secure digital finance solutions
+
+### 🔗 Blockchain Projects
+| Project | Description | Tech Stack |
+| :--- | :--- | :--- |
+| [**Smart Contract Audit Lab**](https://github.com/Andrewpark-hub/smart-contract-audit-lab) | Analysis of major smart contract vulnerabilities (reentrancy, oracle manipulation, and more) with working attack PoCs, plus a static analysis pipeline built around Slither | `Solidity`, `Foundry`, `Slither` |
+| [**Multichain Wallet Lab**](https://github.com/Andrewpark-hub/multichain-wallet-lab) | A multichain (EVM, Sui, Solana) HD wallet core implementing BIP-39/44 key derivation, EIP-1559/712 compatible transaction signing, and allowance monitoring | `Node.js`, `ethers.js` |
+| [**Indy DID Credential Demo**](https://github.com/Andrewpark-hub/indy-did-credential-demo) | Hyperledger Indy infrastructure setup, with an end-to-end scenario for issuing VCs (Verifiable Credentials) and verifying VPs using zero-knowledge proofs (ZKP) | `Python`, `Hyperledger Indy` |
+
+</details>
