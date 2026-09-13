@@ -1,6 +1,6 @@
 # Hi there, I'm Jungun Park! 👋
 
-### Fintech Lab Researcher | Blockchain Developer 
+### Fintech Lab Researcher | Blockchain Developer | Backend Developer
 
 현재 순천향대학교 컴퓨터소프트웨어공학과에 재학 중이며, 핀테크 랩(Fintech Lab) 연구원으로 활동하고 있습니다.
 
