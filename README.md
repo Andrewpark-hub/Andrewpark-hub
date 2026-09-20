@@ -49,6 +49,7 @@
 ### 🔗 Blockchain Projects
 | Project | Description | Tech Stack |
 | :--- | :--- | :--- |
+| [**SEC TSV Tokenized Stock Lab**](https://github.com/Andrewpark-hub/sec-tsv-tokenized-stock-lab) | SEC 토큰화 주식 '혁신 면제'(TSV) 요건 4종(거래량 한도·거래정지 연계·발행사 거부권·권리 승계)을 `순진한 구현 ↔ 수정본` 쌍으로 옮겨, 요건이 깨지는 지점과 막히는 지점을 Foundry 테스트 13개로 검증 | `Solidity`, `Foundry` |
 | [**Smart Contract Audit Lab**](https://github.com/Andrewpark-hub/smart-contract-audit-lab) | 스마트 컨트랙트 주요 취약점(Reentrancy, Oracle Manipulation 등) 분석 및 공격 PoC 구현, Slither를 활용한 정적 분석 파이프라인 구축 | `Solidity`, `Foundry`, `Slither` |
 | [**Multichain Wallet Lab**](https://github.com/Andrewpark-hub/multichain-wallet-lab) | BIP-39/44 표준 기반 키 파생, EIP-1559/712 호환 트랜잭션 서명 및 allowance 모니터링 기능을 지원하는 멀티체인(EVM, Sui, Solana) HD 지갑 코어 구현 | `Node.js`, `ethers.js` |
 | [**Indy DID Credential Demo**](https://github.com/Andrewpark-hub/indy-did-credential-demo) | Hyperledger Indy 인프라 구축 및 영지식 증명(ZKP)을 활용한 VC(검증 가능한 자격증명) 발급 및 VP 검증 시나리오 구현 | `Python`, `Hyperledger Indy` |
@@ -81,6 +82,7 @@ I'm deeply interested in **blockchain architecture, EVM mechanics, and smart con
 ### 🔗 Blockchain Projects
 | Project | Description | Tech Stack |
 | :--- | :--- | :--- |
+| [**SEC TSV Tokenized Stock Lab**](https://github.com/Andrewpark-hub/sec-tsv-tokenized-stock-lab) | Four requirements from the SEC's tokenized-stock "Innovation Exemption" (volume cap, halt linkage, issuer veto, rights pass-through) translated into `naive ↔ fixed` contract pairs, with 13 Foundry tests showing where each requirement breaks and where the fix holds | `Solidity`, `Foundry` |
 | [**Smart Contract Audit Lab**](https://github.com/Andrewpark-hub/smart-contract-audit-lab) | Analysis of major smart contract vulnerabilities (reentrancy, oracle manipulation, and more) with working attack PoCs, plus a static analysis pipeline built around Slither | `Solidity`, `Foundry`, `Slither` |
 | [**Multichain Wallet Lab**](https://github.com/Andrewpark-hub/multichain-wallet-lab) | A multichain (EVM, Sui, Solana) HD wallet core implementing BIP-39/44 key derivation, EIP-1559/712 compatible transaction signing, and allowance monitoring | `Node.js`, `ethers.js` |
 | [**Indy DID Credential Demo**](https://github.com/Andrewpark-hub/indy-did-credential-demo) | Hyperledger Indy infrastructure setup, with an end-to-end scenario for issuing VCs (Verifiable Credentials) and verifying VPs using zero-knowledge proofs (ZKP) | `Python`, `Hyperledger Indy` |
