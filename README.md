@@ -49,6 +49,7 @@
 ### 🔗 Blockchain Projects
 | Project | Description | Tech Stack |
 | :--- | :--- | :--- |
+| [**Stablecoin Freeze ZK Lab**](https://github.com/Andrewpark-hub/stablecoin-freeze-zk-lab) | 스테이블코인 동결 멀티시그의 대기 중 제안 노출과 사유 미기록 문제를 커밋-리빌과 Circom·Groth16 증명(승인 사유 머클 포함)으로 고치고, 대상 미바인딩 증명 복사 공격까지 `순진한 구현 ↔ 수정본` 쌍으로 Foundry 테스트 11개로 검증 | `Solidity`, `Foundry`, `Circom`, `snarkjs` |
 | [**K-Gold Reserve Breaker Lab**](https://github.com/Andrewpark-hub/kgold-reserve-breaker-lab) | 금 담보 B2B 정산 설계(K-Gold)의 핵심 모듈 — 중량 기준 발행 한도, 3-of-5 EIP-712 보유고 증명 오라클, 저장 없이 계산하는 회로차단기를 `처음 설계 ↔ 수정본` 쌍으로 구현하고 불변식 퍼즈 포함 Foundry 테스트 25개로 검증 | `Solidity`, `Foundry`, `EIP-712` |
 | [**SEC TSV Tokenized Stock Lab**](https://github.com/Andrewpark-hub/sec-tsv-tokenized-stock-lab) | SEC 토큰화 주식 '혁신 면제'(TSV) 요건 4종(거래량 한도·거래정지 연계·발행사 거부권·권리 승계)을 `순진한 구현 ↔ 수정본` 쌍으로 옮겨, 요건이 깨지는 지점과 막히는 지점을 Foundry 테스트 13개로 검증 | `Solidity`, `Foundry` |
 | [**Smart Contract Audit Lab**](https://github.com/Andrewpark-hub/smart-contract-audit-lab) | 스마트 컨트랙트 주요 취약점(Reentrancy, Oracle Manipulation 등) 분석 및 공격 PoC 구현, Slither를 활용한 정적 분석 파이프라인 구축 | `Solidity`, `Foundry`, `Slither` |
@@ -83,6 +84,7 @@ I'm deeply interested in **blockchain architecture, EVM mechanics, and smart con
 ### 🔗 Blockchain Projects
 | Project | Description | Tech Stack |
 | :--- | :--- | :--- |
+| [**Stablecoin Freeze ZK Lab**](https://github.com/Andrewpark-hub/stablecoin-freeze-zk-lab) | Fixing two gaps in stablecoin freeze multisigs — publicly visible pending proposals and unrecorded freeze reasons — with salted commit-reveal and a Circom/Groth16 proof of an approved reason (Merkle membership), including a proof-copy attack on an unbound target; `naive ↔ fixed` pairs checked with 11 Foundry tests | `Solidity`, `Foundry`, `Circom`, `snarkjs` |
 | [**K-Gold Reserve Breaker Lab**](https://github.com/Andrewpark-hub/kgold-reserve-breaker-lab) | Core modules of K-Gold, a gold-backed B2B settlement design — weight-based mint cap, a 3-of-5 EIP-712 proof-of-reserve oracle, and a stateless circuit breaker, built as `first design ↔ fixed` pairs and checked with 25 Foundry tests including invariant fuzzing | `Solidity`, `Foundry`, `EIP-712` |
 | [**SEC TSV Tokenized Stock Lab**](https://github.com/Andrewpark-hub/sec-tsv-tokenized-stock-lab) | Four requirements from the SEC's tokenized-stock "Innovation Exemption" (volume cap, halt linkage, issuer veto, rights pass-through) translated into `naive ↔ fixed` contract pairs, with 13 Foundry tests showing where each requirement breaks and where the fix holds | `Solidity`, `Foundry` |
 | [**Smart Contract Audit Lab**](https://github.com/Andrewpark-hub/smart-contract-audit-lab) | Analysis of major smart contract vulnerabilities (reentrancy, oracle manipulation, and more) with working attack PoCs, plus a static analysis pipeline built around Slither | `Solidity`, `Foundry`, `Slither` |
