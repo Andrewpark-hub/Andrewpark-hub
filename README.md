@@ -1,94 +1,81 @@
-# Hi there, I'm Jungun Park! 👋
+# 박정언 (Jungun Park)
 
-### Fintech Lab Researcher | Blockchain Developer | Backend Developer
+순천향대학교 컴퓨터소프트웨어공학과 3학년이고, 핀테크 랩(Fintech Lab)에서 학부연구생으로 있습니다.
 
-현재 순천향대학교 컴퓨터소프트웨어공학과에 재학 중이며, 핀테크 랩(Fintech Lab) 연구원으로 활동하고 있습니다.
+지금은 스테이블코인 발행사의 동결 권한을 주제로 논문을 준비하고 있습니다. 동결 절차를 코드로 어디까지 강제할 수 있는지, 무고한 이용자를 위한 유예 기간은 어떻게 두는 게 맞는지를 보고 있습니다.
 
-**블록체인 아키텍처, EVM 매커니즘, 그리고 스마트 컨트랙트**에 깊은 열정을 가지고 있으며, 이론적 개념을 실제 금융(Digital Finance)과 Web3, RWA(Real-World Asset) 토큰화 기술로 구현해 내는 것에 집중하고 있습니다.
+아래 저장소들은 공부하면서 만든 실습입니다. 규칙을 컨트랙트로 옮겨 보고, 처음 만든 버전이 어디서 깨지는지를 테스트로 남기는 식으로 정리하고 있습니다.
 
----
-
-### 🛠️ Core Interests & Expertise
-- **Blockchain & Web3:** EVM Mechanics, Smart Contract Security, RWA Tokenization
-- **Backend & Fintech:** Java, Spring Framework, Python, Application Development
-- **Current Research:** 분산 원장(Distributed ledger) 신뢰성 및 안전한 디지털 금융 솔루션 구축
+- 관심 분야: 스마트 컨트랙트 보안, 영지식 증명(Circom/Groth16 공부 중), 스테이블코인·RWA 토큰화
 
 ---
 
-### 💻 Tech Stack
+### 프로젝트
 
-**Backend & Blockchain**
-<br/>
-<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-<img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" />
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white" />
+**직접 주제를 정한 실습**
 
-**Frontend**
-<br/>
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-
-**DevOps & Tools**
-<br/>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-<img src="https://img.shields.io/badge/VS%20Code-0078D4?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
-<img src="https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white" />
-<img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white" />
-
----
-
-### 📈 GitHub Stats
-<img src="https://github-readme-stats.vercel.app/api?username=Andrewpark-hub&show_icons=true&theme=radium" alt="Andrewpark-hub's GitHub stats"/>
-
----
-
-
-### 🔗 Blockchain Projects
-| Project | Description | Tech Stack |
+| 프로젝트 | 내용 | 사용 기술 |
 | :--- | :--- | :--- |
-| [**Stablecoin Freeze ZK Lab**](https://github.com/Andrewpark-hub/stablecoin-freeze-zk-lab) | 스테이블코인 동결 멀티시그의 대기 중 제안 노출과 사유 미기록 문제를 커밋-리빌과 Circom·Groth16 증명(승인 사유 머클 포함)으로 고치고, 대상 미바인딩 증명 복사 공격까지 `순진한 구현 ↔ 수정본` 쌍으로 Foundry 테스트 11개로 검증 | `Solidity`, `Foundry`, `Circom`, `snarkjs` |
-| [**K-Gold Reserve Breaker Lab**](https://github.com/Andrewpark-hub/kgold-reserve-breaker-lab) | 금 담보 B2B 정산 설계(K-Gold)의 핵심 모듈 — 중량 기준 발행 한도, 3-of-5 EIP-712 보유고 증명 오라클, 저장 없이 계산하는 회로차단기를 `처음 설계 ↔ 수정본` 쌍으로 구현하고 불변식 퍼즈 포함 Foundry 테스트 25개로 검증 | `Solidity`, `Foundry`, `EIP-712` |
-| [**SEC TSV Tokenized Stock Lab**](https://github.com/Andrewpark-hub/sec-tsv-tokenized-stock-lab) | SEC 토큰화 주식 '혁신 면제'(TSV) 요건 4종(거래량 한도·거래정지 연계·발행사 거부권·권리 승계)을 `순진한 구현 ↔ 수정본` 쌍으로 옮겨, 요건이 깨지는 지점과 막히는 지점을 Foundry 테스트 13개로 검증 | `Solidity`, `Foundry` |
-| [**Smart Contract Audit Lab**](https://github.com/Andrewpark-hub/smart-contract-audit-lab) | 스마트 컨트랙트 주요 취약점(Reentrancy, Oracle Manipulation 등) 분석 및 공격 PoC 구현, Slither를 활용한 정적 분석 파이프라인 구축 | `Solidity`, `Foundry`, `Slither` |
-| [**Multichain Wallet Lab**](https://github.com/Andrewpark-hub/multichain-wallet-lab) | BIP-39/44 표준 기반 키 파생, EIP-1559/712 호환 트랜잭션 서명 및 allowance 모니터링 기능을 지원하는 멀티체인(EVM, Sui, Solana) HD 지갑 코어 구현 | `Node.js`, `ethers.js` |
-| [**Indy DID Credential Demo**](https://github.com/Andrewpark-hub/indy-did-credential-demo) | Hyperledger Indy 인프라 구축 및 영지식 증명(ZKP)을 활용한 VC(검증 가능한 자격증명) 발급 및 VP 검증 시나리오 구현 | `Python`, `Hyperledger Indy` |
+| [**Stablecoin Freeze ZK Lab**](https://github.com/Andrewpark-hub/stablecoin-freeze-zk-lab) | 동결 제안이 실행 전에 공개되는 문제는 커밋-리빌로, 동결 사유가 남지 않는 문제는 "승인된 사유 목록에 있다"는 Groth16 증명으로 막아 봤습니다. 증명에 대상 주소를 묶지 않으면 다른 주소로 복사해 쓸 수 있다는 것도 테스트로 확인했습니다(테스트 11개). 사유 목록이 바뀌면 진행 중인 증명이 무효가 되는 문제는 아직 남아 있습니다. | `Solidity`, `Foundry`, `Circom`, `snarkjs` |
+| [**K-Gold Reserve Breaker Lab**](https://github.com/Andrewpark-hub/kgold-reserve-breaker-lab) | 핀테크 아이디어 공모전에서 설계한 금 담보 정산 시스템(K-Gold)의 발행 한도, 보유고 증명 오라클(노드 5개 중 3개 서명), 서킷브레이커를 만들어 봤습니다. 처음 세운 설계가 깨지는 곳 네 군데를 테스트로 남겼습니다(불변식 퍼즈 포함 25개). | `Solidity`, `Foundry`, `EIP-712` |
+| [**SEC TSV Tokenized Stock Lab**](https://github.com/Andrewpark-hub/sec-tsv-tokenized-stock-lab) | SEC가 토큰화 주식에 '혁신 면제'를 승인했다는 기사를 보고, 기사에 나온 조건 4개(거래량 한도, 거래정지 연계, 발행사 거부권, 권리 승계)를 컨트랙트로 옮겨 봤습니다. 문장을 그대로 옮기면 어디서 어긋나는지 테스트 13개로 확인했습니다. | `Solidity`, `Foundry` |
+
+**블록체인 밋업데이 실습 (2026, 20~22회차)**
+
+| 프로젝트 | 내용 | 사용 기술 |
+| :--- | :--- | :--- |
+| [**Smart Contract Audit Lab**](https://github.com/Andrewpark-hub/smart-contract-audit-lab) | 22회차 보안 과정. 교재에 나온 취약점 5종(접근제어 누락, delegatecall 초기화, tx.origin 피싱, 재진입, cross-function 재진입)을 공격 코드와 고친 코드로 재현했습니다(테스트 10개). Slither를 직접 돌려서 무엇을 잡고 무엇을 놓치는지도 비교했습니다. | `Solidity`, `Foundry`, `Slither` |
+| [**Multichain Wallet Lab**](https://github.com/Andrewpark-hub/multichain-wallet-lab) | 21회차 Wallet 과정. 니모닉과 EVM 주소를 라이브러리 없이 직접 계산해 라이브러리 결과와 대조했고, EIP-1559 트랜잭션을 단계별로 조립해 서명해 봤습니다(기본은 dry-run). EIP-712 digest도 직접 조립해 비교했습니다. 무한 approve를 찾아 회수하는 스크립트를 따로 붙였고, Sui·Solana는 같은 니모닉으로 주소를 파생해 조회하는 데까지 했습니다. | `Node.js`, `ethers.js`, `@mysten/sui`, `@solana/web3.js` |
+| [**Indy DID Credential Demo**](https://github.com/Andrewpark-hub/indy-did-credential-demo) | 20회차 DID 과정. 로컬 Indy 네트워크(von-network)를 Docker로 띄우고 DID 등록, VC 발급, VP 검증 흐름을 따라가 봤습니다. 필요한 속성만 공개하는 증명은 AnonCreds(CL 서명) 라이브러리 기능을 썼습니다. | `Python`, `Hyperledger Indy`, `Docker` |
 
 ---
 
+### 기술
 
+- 주로 써 본 것: Solidity, Foundry
+- 실습에서 써 본 것: Circom, snarkjs(Groth16), Slither, Node.js(ethers.js), Python, Hyperledger Indy, Docker
+- 공부 중: Java
 
-### 📫 Let's Connect!
-<a href="https://www.linkedin.com/in/정언-박-975ab1323/">
+---
+
+### 연락
+
+<a href="https://www.linkedin.com/in/%EC%A0%95%EC%96%B8-%EB%B0%95-975ab1323/">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
 
 ---
 
 <details>
-<summary><b>🌐 English</b> — click to expand</summary>
+<summary><b>English</b></summary>
 
 <br/>
 
-I'm currently studying Computer Software Engineering at Soonchunhyang University, where I also work as a researcher at the Fintech Lab.
+I'm a third-year Computer Software Engineering student at Soonchunhyang University and an undergraduate research student in the Fintech Lab.
 
-I'm deeply interested in **blockchain architecture, EVM mechanics, and smart contracts**, and I focus on turning theoretical concepts into working technology for digital finance, Web3, and RWA (Real-World Asset) tokenization.
+I'm preparing a paper on stablecoin issuers' power to freeze accounts: how far the freeze procedure can be enforced in code, and how to set a grace period that protects innocent holders.
 
-### 🛠️ Core Interests & Expertise
-- **Blockchain & Web3:** EVM Mechanics, Smart Contract Security, RWA Tokenization
-- **Backend & Fintech:** Java, Spring Framework, Python, Application Development
-- **Current Research:** Distributed ledger trustworthiness and building secure digital finance solutions
+The repositories below are study projects. I turn a rule into a contract, then write tests that show where my first version breaks.
 
-### 🔗 Blockchain Projects
-| Project | Description | Tech Stack |
+- **Interests:** smart contract security, zero-knowledge proofs (learning Circom/Groth16), stablecoins and RWA tokenization
+- **Mostly used:** Solidity, Foundry
+- **Also used in labs:** Circom, snarkjs (Groth16), Slither, Node.js (ethers.js), Python, Hyperledger Indy, Docker
+- **Learning:** Java
+
+**Labs on topics I picked**
+
+| Project | What I did | Tech |
 | :--- | :--- | :--- |
-| [**Stablecoin Freeze ZK Lab**](https://github.com/Andrewpark-hub/stablecoin-freeze-zk-lab) | Fixing two gaps in stablecoin freeze multisigs — publicly visible pending proposals and unrecorded freeze reasons — with salted commit-reveal and a Circom/Groth16 proof of an approved reason (Merkle membership), including a proof-copy attack on an unbound target; `naive ↔ fixed` pairs checked with 11 Foundry tests | `Solidity`, `Foundry`, `Circom`, `snarkjs` |
-| [**K-Gold Reserve Breaker Lab**](https://github.com/Andrewpark-hub/kgold-reserve-breaker-lab) | Core modules of K-Gold, a gold-backed B2B settlement design — weight-based mint cap, a 3-of-5 EIP-712 proof-of-reserve oracle, and a stateless circuit breaker, built as `first design ↔ fixed` pairs and checked with 25 Foundry tests including invariant fuzzing | `Solidity`, `Foundry`, `EIP-712` |
-| [**SEC TSV Tokenized Stock Lab**](https://github.com/Andrewpark-hub/sec-tsv-tokenized-stock-lab) | Four requirements from the SEC's tokenized-stock "Innovation Exemption" (volume cap, halt linkage, issuer veto, rights pass-through) translated into `naive ↔ fixed` contract pairs, with 13 Foundry tests showing where each requirement breaks and where the fix holds | `Solidity`, `Foundry` |
-| [**Smart Contract Audit Lab**](https://github.com/Andrewpark-hub/smart-contract-audit-lab) | Analysis of major smart contract vulnerabilities (reentrancy, oracle manipulation, and more) with working attack PoCs, plus a static analysis pipeline built around Slither | `Solidity`, `Foundry`, `Slither` |
-| [**Multichain Wallet Lab**](https://github.com/Andrewpark-hub/multichain-wallet-lab) | A multichain (EVM, Sui, Solana) HD wallet core implementing BIP-39/44 key derivation, EIP-1559/712 compatible transaction signing, and allowance monitoring | `Node.js`, `ethers.js` |
-| [**Indy DID Credential Demo**](https://github.com/Andrewpark-hub/indy-did-credential-demo) | Hyperledger Indy infrastructure setup, with an end-to-end scenario for issuing VCs (Verifiable Credentials) and verifying VPs using zero-knowledge proofs (ZKP) | `Python`, `Hyperledger Indy` |
+| [**Stablecoin Freeze ZK Lab**](https://github.com/Andrewpark-hub/stablecoin-freeze-zk-lab) | Two gaps in a freeze multisig: pending proposals are public, and freeze reasons are not recorded. I tried commit-reveal for the first and, for the second, a Groth16 proof that the reason is on an approved list. Tests also show that a proof not bound to the target address can be copied to freeze someone else (11 tests). Still open: updating the list invalidates pending proofs. | `Solidity`, `Foundry`, `Circom`, `snarkjs` |
+| [**K-Gold Reserve Breaker Lab**](https://github.com/Andrewpark-hub/kgold-reserve-breaker-lab) | Mint cap, a 3-of-5 proof-of-reserve oracle and a circuit breaker for K-Gold, a gold-backed settlement design from a fintech idea contest. The four places where my first design broke are kept as tests (25 tests, including invariant fuzzing). | `Solidity`, `Foundry`, `EIP-712` |
+| [**SEC TSV Tokenized Stock Lab**](https://github.com/Andrewpark-hub/sec-tsv-tokenized-stock-lab) | Four conditions from a news report on the SEC's "innovation exemption" for tokenized stocks (volume cap, halt linkage, issuer veto, rights pass-through), turned into contracts to see where a literal translation goes wrong (13 tests). | `Solidity`, `Foundry` |
+
+**Blockchain Meetup Day labs (2026, sessions 20 to 22)**
+
+| Project | What I did | Tech |
+| :--- | :--- | :--- |
+| [**Smart Contract Audit Lab**](https://github.com/Andrewpark-hub/smart-contract-audit-lab) | Session 22, security track. Five textbook vulnerabilities (missing access control, delegatecall initialization, tx.origin phishing, reentrancy, cross-function reentrancy) reproduced as exploit/fix pairs (10 tests). I also ran Slither on each to compare what it catches and misses. | `Solidity`, `Foundry`, `Slither` |
+| [**Multichain Wallet Lab**](https://github.com/Andrewpark-hub/multichain-wallet-lab) | Session 21, wallet track. Derived the mnemonic and EVM address without a library and checked them against library output, built and signed an EIP-1559 transaction step by step (dry-run by default), and assembled an EIP-712 digest by hand. I then added a script that finds and revokes unlimited approvals. Sui and Solana go only as far as deriving and looking up addresses from the same mnemonic. | `Node.js`, `ethers.js`, `@mysten/sui`, `@solana/web3.js` |
+| [**Indy DID Credential Demo**](https://github.com/Andrewpark-hub/indy-did-credential-demo) | Session 20, DID track. Ran a local Indy network (von-network) in Docker and walked through DID registration, VC issuance and VP verification. Selective disclosure comes from the AnonCreds (CL signature) library. | `Python`, `Hyperledger Indy`, `Docker` |
 
 </details>
