@@ -16,26 +16,24 @@
 - 🌱 지금 공부 중: Circom · Groth16
 - 🧪 공부하는 방식: 규칙을 컨트랙트로 옮겨 보고, **처음 만든 버전이 어디서 깨지는지**를 테스트로 남깁니다.
 
-## 🛠️ Tech Stack
+## 🛠️ Stack
 
-<p align="center"><b>주 언어</b></p>
+<p align="center">
+  <img src="./assets/stack-icons.svg" height="56" alt="Java, Kotlin, Solidity, Python, Node.js, Docker" />
+</p>
+
 <p align="center">
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
   <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
-</p>
-
-<p align="center"><b>블록체인 실습</b></p>
-<p align="center">
   <img src="https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white" />
-  <img src="https://img.shields.io/badge/Foundry-1C1C1C?style=for-the-badge&logo=ethereum&logoColor=white" />
-  <img src="https://img.shields.io/badge/Circom-6F42C1?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/snarkjs_(Groth16)-6F42C1?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Slither-4B2E83?style=for-the-badge" />
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/ethers.js-2535A0?style=for-the-badge&logo=ethereum&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <br/>
+  <img src="https://img.shields.io/badge/Foundry-1C1C1C?style=for-the-badge&logo=ethereum&logoColor=white" />
+  <img src="https://img.shields.io/badge/ethers.js-2535A0?style=for-the-badge&logo=ethereum&logoColor=white" />
+  <img src="https://img.shields.io/badge/Circom-6F42C1?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/snarkjs-6F42C1?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Slither-4B2E83?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Hyperledger_Indy-2F3134?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
 </p>
