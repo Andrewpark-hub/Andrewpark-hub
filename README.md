@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://andrewpark-hub.github.io/"><img src="https://img.shields.io/badge/Website-andrewpark--hub.github.io-4F5BD5?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" /></a>
+  <a href="https://jungunpark.com/"><img src="https://img.shields.io/badge/Website-jungunpark.com-4F5BD5?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" /></a>
   <a href="https://www.linkedin.com/in/%EC%A0%95%EC%96%B8-%EB%B0%95-975ab1323/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <img src="https://img.shields.io/badge/Soonchunhyang_Univ.-Fintech_Lab-1a1446?style=for-the-badge" alt="Fintech Lab" />
 
